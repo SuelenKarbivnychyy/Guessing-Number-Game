@@ -8,7 +8,7 @@ tries = 1
 print("The correct number is:", number_generator)
 
 while True:
-    user_guess = input("Guess a number between 1 - 100: ")
+    user_guess = input("Guess a number between 1 - 100:: ")
     if not user_guess.isdecimal():        
         print("just positive numbers allow")
         tries += 1
